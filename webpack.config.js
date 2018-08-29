@@ -23,6 +23,15 @@ module.exports = {
           loader: 'babel-loader'
         }
       }
+    ],
+    loaders: [
+        {
+            test: /\.js$/,
+            loader: 'babel',
+            query:{
+                presets:['react']
+            }
+        }
     ]
   },
   resolve: {

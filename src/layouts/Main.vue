@@ -4,6 +4,7 @@
       <li>
         <v-link href="/">Home</v-link>
         <v-link href="/about">About</v-link>
+        <v-link href="/helloworld">helloworld</v-link>
       </li>
     </ul>
 
